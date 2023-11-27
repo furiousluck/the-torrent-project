@@ -5,8 +5,9 @@
 ## Installation
 
 To install `torrent-pro`, you can use npm:
-
+```bash
 npm install -g torrent-pro
+``````
 
 ## Usage
 
@@ -17,10 +18,10 @@ Download a torrent from a magnet link or a torrent file:
 torrent-pro <torrent>
 
 **Examples:**
-```bash
+```
 torrent-pro magnet:?xt=urn:btih:abcdef1234567890
 ```
-```bash
+```
 torrent-pro "file.torrent"
 ```
 
@@ -31,7 +32,7 @@ Seed a torrent file:
 torrent-pro seed <torrent>
 
 **Example:**
-```bash
+```
 torrent-pro seed myTorrentFile.torrent
 ```
 
@@ -42,7 +43,7 @@ Print information about a .torrent file to stdout as JSON:
 torrent-pro info <torrent>
 
 **Example:**
-```bash
+```
 torrent-pro info myTorrentFile.torrent
 ```
 
@@ -57,7 +58,7 @@ torrent-pro ls <torrent> [OPTIONS]
 - `-h`: Show file sizes in human units when `-s` is on.
 
 **Example:**
-```bash
+```
 torrent-pro ls myTorrentFile.torrent -sh
 ```
 
@@ -73,7 +74,7 @@ If an output file isn't specified with `-o`, the torrent file will be written to
 ```bash
 torrent-pro create /path/to/myDirectory -o myTorrentFile.torrent
 ```
-```bash
+```
 torrent-pro create /path/to/myDirectory
 ```
 
