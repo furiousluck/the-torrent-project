@@ -1,6 +1,6 @@
 {
   "name": "the-torrent-project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Used to download torrent files",
   "main": "index.js",
   "scripts": {
@@ -35,5 +35,6 @@
     "single-line-log": "^1.1.2",
     "torrent": "^2.0.0",
     "torrent-stream": "git+https://github.com/zim32/torrent-stream.git#master"
-  }
+  },
+  "keywords": ["torrent", "download", "cli"]
 }
