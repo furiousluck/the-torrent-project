@@ -16,6 +16,10 @@
   "bugs": {
     "url": "https://github.com/furiousluck/the-torrent-project/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/furiousluck/the-torrent-project.git"
+    },
   "dependencies": {
     "chalk": "^4.1.2",
     "concat-stream": "^2.0.0",
