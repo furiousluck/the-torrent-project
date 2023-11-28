@@ -39,3 +39,4 @@ Usage:
 - `<torrent>` can be a magnet link, a path to a .torrent file, or `-` for STDIN.
 
 Note: Ensure to replace the examples with appropriate file and directory paths or magnet links.
+Note: Deselect of files might not function properly and might result in downloading all the files present in the torrent.

@@ -21,7 +21,7 @@ var torrents = require('torrent-stream')
 
 
 
-figlet('Torrent - CLI', function(err, data) {
+figlet('Torrent - Pro', function(err, data) {
     if(err){
         console.log('Something went wrong...');
         console.dir(err);
